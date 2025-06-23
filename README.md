@@ -6,3 +6,4 @@ The file contains various puzzles:
 3. House damage puzzle (based on merge sort)
 4. Binary search for a shifted sorted array in O(log(N))
 5. Extract the k'th smallest element from a min-heap in O(k*log(k))
+6. Euler project: numerous coding puzzles from https://projecteuler.net/
