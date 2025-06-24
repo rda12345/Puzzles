@@ -6,11 +6,13 @@ Puzzle from the recitation 11 of 6.006
 
 ## Puzzle
 # Extract the k'th smallest element from a min heap
-# Solution: Going from the root down, we compare the children of the nodes to
-# the next smallest element, which is the minimum element of an auxilary heap.
-# We add the keys of larger elements to the auxilary heap.
-# Since the auxilary heap contains at most k elements, the algorithm scales as
-# O(k*log(k))
+# Solution: In the begining we add the root of the min-heap to an auxiliary min-heap
+# storing a tuple with the (value, index) of nodes. We add to the auxiliary min-heap
+# the children nodes of the smallest element so far. Each iteration we extract from the 
+# auxilary min-heap the smallest element and add its children to the auxiliary min-heap.
+# Each iteration  we extract an element and add two elements to the auxiliary min-heap
+# so the number of elements in the auxiliary min-heap scales as O(k) and therefore 
+# the total algorithm is of order O(k*log(k))
 
 
 ## min-heap  
