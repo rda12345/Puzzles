@@ -7,3 +7,4 @@ The file contains various puzzles:
 4. Binary search for a shifted sorted array in O(log(N))
 5. Extract the k'th smallest element from a min-heap in O(k*log(k))
 6. Euler project: numerous coding puzzles from https://projecteuler.net/
+7. DP practice problems: includes practice problems of various difficulty levels
